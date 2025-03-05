@@ -1,4 +1,4 @@
-package streams.model;
+package streams.reporting.model;
 
 public class Customer {
     private String name;

@@ -1,4 +1,4 @@
-package streams.model;
+package streams.reporting.model;
 
 import java.math.BigDecimal;
 

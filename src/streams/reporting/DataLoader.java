@@ -1,8 +1,8 @@
-package streams;
+package streams.reporting;
 
-import streams.model.Customer;
-import streams.model.Sale;
-import streams.model.Vehicle;
+import streams.reporting.model.Customer;
+import streams.reporting.model.Sale;
+import streams.reporting.model.Vehicle;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

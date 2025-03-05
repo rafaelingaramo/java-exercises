@@ -1,4 +1,4 @@
-package streams.model;
+package streams.reporting.model;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
@@ -47,11 +47,9 @@ public class Sale {
 
     @Override
     public String toString() {
-        return "Sale{" +
-                "date=" + date +
+        return "date=" + date +
                 ", customer=" + customer +
-                ", total=" + getFormattedTotal() +
-                '}';
+                ", total=" + getFormattedTotal();
     }
 
     private String getFormattedTotal() {

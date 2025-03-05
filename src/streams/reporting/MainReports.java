@@ -1,7 +1,7 @@
-package streams;
+package streams.reporting;
 
-import streams.model.Sale;
-import streams.reports.Reports;
+import streams.reporting.model.Sale;
+import streams.reporting.reports.Reports;
 
 import java.util.List;
 
