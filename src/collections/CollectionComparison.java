@@ -34,10 +34,10 @@ public class CollectionComparison {
         System.out.printf("%-30s %s\n", intLinkedList.getClass(), intLinkedList); //ordered collection
         System.out.printf("%-30s %s\n", intHashSet.getClass(), intHashSet); //unordered collection hashes are what make the sorting work
         System.out.printf("%-30s %s\n", intTreeSet.getClass(), intTreeSet); //ordered due to being a BST
-        System.out.printf("%-30s %s\n", intLinkedHashSet.getClass(), intLinkedHashSet); //ordered due to being a linked hash set
+        System.out.printf("%-30s %s\n", intLinkedHashSet.getClass(), intLinkedHashSet); //keeps insertion order
         System.out.printf("%-30s %s\n", hashMap.getClass(), hashMap); //unordered collection hashes are what make the sorting work
-        System.out.printf("%-30s %s\n", treeMap.getClass(), treeMap); //ordered collection due to being a bst
-        System.out.printf("%-30s %s\n", linkedHashMap.getClass(), linkedHashMap); //ordered collection doe to being a linked hash map
+        System.out.printf("%-30s %s\n", treeMap.getClass(), treeMap); //ordered collection due to being a bst (natural or custom comparator)
+        System.out.printf("%-30s %s\n", linkedHashMap.getClass(), linkedHashMap); //keeps insertion order
     }
 
     private void compareInsertSearchDelete() {
